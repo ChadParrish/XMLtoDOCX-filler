@@ -35,6 +35,6 @@ XML **<Emp_name>** will be filled in {Emp_name}
 
 XML base64 **<Insp_sign>** will be converted into an image and placed wherever its placeholder {%Insp_sign} is.
 
-Checkout the samples **input.docx** and **appolo.xml** which given to the program generated **output.docx**
+Checkout the samples **input.docx** and **apollo.xml** which given to the program generates **output.docx**
 
 Input and output file names can be modified in **index.js**.
