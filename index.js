@@ -44,7 +44,7 @@ catch (error) {
     errorHandler(error);
 }
 
-var buf = doc.getZip()
+const buf = doc.getZip()
     .generate({ type: 'nodebuffer' });
 
 console.log("DOCX written")
