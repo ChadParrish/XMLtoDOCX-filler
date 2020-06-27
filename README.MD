@@ -28,7 +28,7 @@ $ npm i   #Install dependencies
 node index.js
 ```
 
-### Format
+## Format
 **input.docx** contain text placeholders **{Emp_name}** and image placeholders with a preceeding **%** symbol **{%Insp_sign}** which is important and its how the system could understand and differentiate text and image placeholders
 
 ```XML
