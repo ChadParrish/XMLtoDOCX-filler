@@ -31,11 +31,11 @@ node index.js
 ### Format
 **input.docx** contain text placeholders **{Emp_name}** and image placeholders with a preceeding **%** symbol **{%Insp_sign}** which is important and its how the system could understand and differentiate text and image placeholders
 
+```XML
+XML <Emp_name> will be filled in {Emp_name}
 ```
-XML **<Emp_name>** will be filled in {Emp_name}
-```
-```
-XML base64 **<Insp_sign>** will be converted into an image and placed wherever its placeholder {%Insp_sign} is.
+```XML
+XML base64 <Insp_sign> will be converted into an image and placed wherever its placeholder {%Insp_sign} is.
 ```
 
 Checkout the samples **input.docx** and **apollo.xml** which given to the program generates **output.docx**
