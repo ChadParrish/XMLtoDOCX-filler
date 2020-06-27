@@ -17,7 +17,7 @@ This tool automatically cleans XML input and replaces it in the placeholders of 
 This setup assumes you already have NodeJS installed
 
 ```bash
-$ git clone https://github.com/mohanpierce99/xmltodocfill
+$ git clone https://github.com/mohanpierce99/XMLtoDOCX-filler
 ```
 
 ```bash
