@@ -5,7 +5,7 @@
   <br>
   <span>XML TO DOCX Autofiller</span>
   <br>
-<h4 align="center">Autofills data from XML to placeholders to DOCX including images</h4>
+<h4 align="center">Autofills data from XML to placeholders in DOCX including images</h4>
 
 
 <p align="justify">
