@@ -29,7 +29,7 @@ node index.js
 ```
 
 ### Format
-**input.docx** contain text placeholders **{Empname}** and image placeholders with a preceeding **%** symbol **{%Insp_sign}** which is important and its how the system could understand and different text and image placeholder 
+**input.docx** contain text placeholders **{Empname}** and image placeholders with a preceeding **%** symbol **{%Insp_sign}** which is important and its how the system could understand and differentiate text and image placeholder 
 
 Xml **<Empname>** will be filled in {Empname}
 
