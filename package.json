@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "docxtemplater": "^3.17.9",
-    "docxtemplater-image-module": "^3.1.0",
     "pizzip": "^3.0.6",
     "xml-js": "^1.6.11"
   }

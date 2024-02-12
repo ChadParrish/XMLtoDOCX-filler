@@ -1,6 +1,5 @@
 const PizZip = require('pizzip');
 const Docxtemplater = require('docxtemplater');
-const ImageModule = require("docxtemplater-image-module");
 const convert = require('xml-js');
 const fs = require('fs');
 const path = require('path');
@@ -11,14 +10,6 @@ let parsedObject = JSON.parse(convert.xml2json(fs.readFileSync("apollo.xml", "ut
 
 let result = clean(parsedObject);
 
-const imageModule = new ImageModule({
-    getImage(tag) {
-        return base64DataURLToArrayBuffer(tag);
-    },
-    getSize() {
-        return [375, 100];
-    }
-});
 
 //Load the template docx file as a binary
 let content = fs.readFileSync(path.resolve(__dirname, 'input.docx'), 'binary');
@@ -26,7 +17,7 @@ let content = fs.readFileSync(path.resolve(__dirname, 'input.docx'), 'binary');
 let zip = new PizZip(content);
 let doc;
 try {
-    doc = new Docxtemplater().loadZip(zip).attachModule(imageModule)
+    doc = new Docxtemplater().loadZip(zip)
 
 } catch (error) {
     // Catch compilation errors (errors caused by the compilation of the template : misplaced tags)
